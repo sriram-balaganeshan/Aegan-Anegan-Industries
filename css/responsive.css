@@ -32,6 +32,8 @@
 
   .slider_section .detail-box p {
     width: 90%;
+    letter-spacing: 0rem !important;
+    font-size: 16px !important;
     margin-left: auto;
     margin-right: auto;
   }
@@ -162,3 +164,4 @@
   .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
     padding: 10px 30px;
   }
+}

@@ -216,7 +216,8 @@ a:focus {
 }
 
 .slider_section .detail-box p {
-  width: 75%;
+  width: 70%;
+  letter-spacing: 0.125rem;
   margin-top: 15px;
 }
 
@@ -489,7 +490,7 @@ a:focus {
           transform: translate(-50%, -50%);
   width: 0;
   height: 0;
-  background-color: rgba(147, 143, 233, 0.8);
+  /* background-color: rgba(147, 143, 233, 0.8); */
   border-radius: 25px;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
@@ -811,6 +812,7 @@ a:focus {
 }
 
 .contact_items .item .img-box.box-3 {
+  width: 20px;
   background-image: url(../images/envelope.png);
 }
 
@@ -880,8 +882,19 @@ a:focus {
   margin-top: 16px;
 }
 
+@media screen and (min-width: 767px) {
+ 
+  .title-card{
+    display: flex;
+    justify-content: center;
+    margin-left: '-15px';
+  }
+}
 /* for mobile */
 @media screen and (max-width: 767px) {
+  .navbar-brand img{     
+    width: 80px !important;
+  }
   .whatsapp-icon {
       margin-top: 10px;
   }
